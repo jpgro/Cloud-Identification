@@ -14,7 +14,7 @@ while iniciar == 'S':
         
 
     #2.Identificación de nubes:
-    print('\nPorfavor conteste las siguientes preguntas. Responde S para SI y N para NO:  ')
+    print('\nPorfavor conteste las siguientes preguntas. Responde S para SI, y N para NO:  ')
     pregunta_1=(str(input('\nSe ven rayos o se oyen truenos? ')))
     if pregunta_1 == 'S': 
         tipo_nube = tipos_nubes[0][0]
